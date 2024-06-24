@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Usa a tag OL para abrir e fechar a tag LI para listar</p>
+    <ol type="">
+        <li>acordar</li>
+        <li>escovar os dentes</li>
+        <li>tomar cafe</li>
+        <li>escovar os dentes</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <p>Para criar listas não ordenadas, usa-se a tag UL</p>
+    <ul type="circle">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Batata</li>
+        <li>detergente</li>
+    </ul>
+    <h2>Listas de Definição</h2>
+
+    <dl>
+        <dt>Termo</dt>
+        <dd>Aqui fica a definição do termo acima</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação usada para criar o conteudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>linguagem de marcação usada para criar o desing de um site.</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação usada para criar interações em um site.</dd>
+    </dl>
+
+    <h2>Listas Mistas</h2>
+    <p>seguindo a mesma logica da hierarquia de titulos, posso criar uma OL dentro de um item de outra OL, também serve para UL's</p>
+    <h3>Compras</h3>
+    <ol>
+        <li>Comidas</li>
+            <ul type="square">
+                <li>pão</li>
+                <li>Arroz</li>
+                <li>chiclete</li>
+            </ul>
+        <li>Limpeza</li>
+            <ul type="square">
+                <li>Coisas da pia</li>
+                    <ul type="disc">
+                        <li>detergente</li>
+                        <li>sabonete</li>
+                        <li>desengordurante</li>
+                    </ul>
+                <li>Desinfetante</li>
+                <li>Cheirinho de chão</li>
+            </ul>
+        <li>Diversão</li>
+            <ul type="square">
+                <li>Consoles</li>
+                    <ul type="disc">
+                        <li>PlayStation 5</li>
+                        <li>Xbox Series X</li>
+                    </ul>
+                <li>Jogos</li>
+                    <ul type="disc">
+                        <li>Xbox</li>
+                            <ul>
+                                <li>RDR2</li>
+                                <li>Castle Crashers</li>
+                            </ul>
+                        <li>PlayStation</li>
+                            <ul>
+                                <li>Fortnite</li>
+                                <li>Fifa 24</li>
+                            </ul>
+                    </ul>
+            </ul>
+    </ol>
+</body>
+</html>

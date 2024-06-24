@@ -1,0 +1,17 @@
+ler a
+ler b
+ler c
+
+se (a < b+c) e (b < a+c) (c < a+b) entao
+    se (a=b) e (b=c) entao
+        escreval ("equilatero")
+    senao 
+        se (a=b) ou (b=c) ou (a=c) entao    
+            escreval ("isosceles")
+        senao
+            escreval ("escaleno")
+        fimse
+    fimse
+senao   
+    escreval ("não é possivel criar um triangulo")
+fimse

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font: normal normal 16px 'Open sans';
+}
+
+div {
+}
+
+/*ancoras dos textos do topo*/
+div#topo > div > div >.anc {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/*Todas as divs do topo*/
+div#topo > div {
+    
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 1.2em;
+    height: 80px;
+}
+
+/*Topo*/
+div#topo {
+    display: inline-block;
+}
+
+/*globo.com*/
+div#globo {
+    width: 100px;
+    text-align: center;
+    color: #0065b8;
+    background-color: white;
+    height: 67px;
+    padding: 1px;
+}
+
+div#barraglobo {
+    background-color: #ffffff;
+    width: 100px;
+    height: 71px;
+}
+
+
+
+div#barraglobo:hover {
+    background-color: #0065b8;
+    width: 100px;
+    height: 71px;
+}
+
+/*g1*/
+div#g1 {
+     width: 40px;
+     height: 67px;
+     background-color: white;
+     text-align: center;
+     color: #C4170C;
+    padding: 1px;
+}
+
+div#barrag1 {
+    background-color: #ffffff;
+    width: 40px;
+    height: 67px;
+}
+
+div#barrag1:hover {
+    height: 71px;
+    background-color: #C4170C;
+}
+
+/*ge*/
+div#ge {
+    width: 40px;
+    text-align: center;
+    color: #06AA48;
+}
+
+/*gshow*/
+div#gshow {
+    width: 80px;
+    text-align: center;
+    color: #FF6752;
+}
+
+/*globoplay*/
+div#globoplay {
+    width: 120px;
+    text-align: center;
+    color: #FB0334;
+}
+
+/*cartola*/
+div#cartola {
+    width: 70px;
+    text-align: center;
+    color: #E3672B;
+}
+
+/*sportv*/
+div#sportv {
+    width: 80px;
+    text-align: center;
+    color: black;
+}
+
+
+/**//**//**//**//**//**/
+div#cabecalho2 {
+    background-color: #06AA48;
+    width: 999999px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.espaco {
+    padding-top: 10px;
+}

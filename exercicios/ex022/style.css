@@ -1,5 +1,25 @@
-div {
-    width: 50%;
-    height: 50%;
-    background-color: #083E7A;
+div#a1 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #019BDA, #0089CA);
+    /*
+    background-color: #09627A;
+    */
+}
+div#a2 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #0089CA, #0089CA);
+}div#a3 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #0089CA, #285398);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }

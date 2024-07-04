@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            margin: 30px;
+        }
+
+        table {
+            margin: 30px;
+            border-collapse: collapse;
+            background-color: rgb(207, 207, 207);
+            box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.534);
+        }
+
+        tr:hover {
+            background-color: rgba(255, 255, 0, 0.356);
+        }
+
+        td {
+            padding: 10px;
+            border: solid 1px black;
+            text-align: center;
+            padding-right: 15px;
+        }
+
+        td.pib {
+            padding-right: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <!--
+    TABLE
+        TABLE ROW = <tr>
+            TABLE HEADER = <th>
+            TABLE DATA = <td>
+    -->
+    <table>
+        <a href="#">
+        <tr id="brasil">
+            <td class="pais">     Brasil</td>
+            <td class="pib">      1,92 trilhão USD</td>
+            <td class="populacao">215,3 milhões</td>
+        </tr>
+        </a>
+        <a href="#">
+        <tr id="eua">
+            <td class="pais">     EUA</td>
+            <td class="pib">      2,52 trilhão USD</td>
+            <td class="populacao">435,3 milhões</td>
+        </tr>
+        </a>
+        <tr id="russia">
+            <td class="pais">     Russia</td>
+            <td class="pib">      2,24 trilhão USD</td>
+            <td class="populacao">144,2 milhões</td>
+        </tr>
+    </table>
+</body>
+</html>

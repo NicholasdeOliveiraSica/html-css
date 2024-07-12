@@ -60,6 +60,10 @@ nav a:hover {
     color: #063d1e;
 }
 
+nav #navnot:hover {
+    
+}
+
 
 main {
     border-radius: 0px 0px 10px 10px;

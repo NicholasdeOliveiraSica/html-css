@@ -15,6 +15,13 @@
     --fonte3: 'Sriracha', 'cursive';
 }
 
+button {
+    height: 40px;
+    width: 200px;
+    margin: 50px;
+    margin-bottom: -200px;
+}
+
 header {
     color: white;
     background-color: black;
@@ -24,6 +31,8 @@ header {
 
 header h1 {
     font: normal bold 3.5em var(--fonte2);
+    opacity: 0%;
+    transition-duration: 1s;
 }
 
 header p {
@@ -97,4 +106,26 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#form {
+    position: fixed;
+    top: 40px;
+    left: -50%;
+    width: 600px;
+    z-index: 2;
+    transition-duration: 2s;
+}
+
+#form {
+    border: 1px solid black;
+    padding: -20px;
+}
+
+#form button {
+    background-color: gray;
+    color: white;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
 }

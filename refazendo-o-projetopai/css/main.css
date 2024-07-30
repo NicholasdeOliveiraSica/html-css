@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@media (max-width: 9999px){
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-main {
+    display: block;
+    width: 30%;
+}
+
+.conteudo-main img {
+    display: block;
+    margin-bottom: 30px;
+    width: 25vw;
+}
+
+.conteudo-main p {
+    background-color: rgba(0, 0, 0, 0.103);
+    color: white;
+    font: normal normal 18px Arial, Helvetica, 'sans-serif';
+    text-align: justify;
+    text-indent: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.conteudo-main button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: #06387A;
+    color: white;
+    font: normal bold 18px Arial, Helvetica, 'sans-serif';
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+.conteudo-main button:hover {
+    background-color: #052550;
+    box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.514);
+    cursor: pointer;
+}
+
+.imagem-main {
+    width: 23%;
+}
+
+.imagem-main img {
+    width: 25vw;
+}
+}
+
+@media (max-width: 1400px) {
+
+    main {
+        display: block;
+    }
+
+    .conteudo-main, .imagem-main {
+        margin: auto;
+        margin-bottom: 50px;
+        width: 50vw;
+    }
+
+    .conteudo-main {
+        margin-top: 150px;
+    }
+
+    .conteudo-main img {
+        width: 50vw;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .conteudo-main p {
+        margin-bottom: 20px;
+    }
+
+    .conteudo-main button {
+        margin: 0px;
+        margin: auto;
+    }
+    
+    .imagem-main img {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 800px) {
+
+    main {
+        display: block;
+    }
+
+    .conteudo-main, .imagem-main {
+        margin: auto;
+        margin-bottom: 50px;
+        width: 80vw;
+    }
+
+    .conteudo-main {
+        margin-top: 150px;
+    }
+
+    .conteudo-main p {
+        font-size: 16px;
+    }
+
+    .conteudo-main img {
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .conteudo-main p {
+        margin-bottom: 20px;
+    }
+
+    .conteudo-main button {
+        margin-top: 50px;
+    }
+    
+    .imagem-main {
+        width: 326px;
+    }
+}

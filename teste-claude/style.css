@@ -1,0 +1,202 @@
+/* Estilos globais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Estilos do carrossel */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course-carousel {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 20px 0;
+  border: 1px solid #bbb;
+  transition-duration: 0.2s;
+  scroll-behavior: smooth;
+}
+
+.course-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.course-card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.course-card:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.course-card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.course-card h3 {
+  margin: 16px 30px 8px;
+  font-size: 18px;
+}
+
+.course-card p {
+  margin: 0 0 0 30px;
+  font-size: 14px;
+  color: #666;
+  padding: 0 16px;
+}
+
+/* Estilos dos controles do carrossel */
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.carousel-controls button {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  opacity: 0.6;
+}
+
+.carousel-controls button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+
+.carousel-controls button.prev-btn:active {
+  transform: translateX(-10px);
+}
+
+.carousel-controls button.next-btn:active {
+  transform: translateX(10px);
+}
+/* ============================= */
+.carousel-container2 {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course-carousel2 {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 20px 0;
+  border: 1px solid #bbb;
+  transition-duration: 0.2s;
+  scroll-behavior: smooth;
+}
+
+.course-carousel2::-webkit-scrollbar {
+  display: none;
+}
+
+.course-card2 {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.course-card2:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.course-card2 img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.course-card2 h3 {
+  margin: 16px 30px 8px;
+  font-size: 18px;
+}
+
+.course-card2 p {
+  margin: 0 0 0 30px;
+  font-size: 14px;
+  color: #666;
+  padding: 0 16px;
+}
+
+/* Estilos dos controles do carrossel */
+.carousel-controls2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.carousel-controls2 button {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  opacity: 0.6;
+}
+
+.carousel-controls2 button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+
+.carousel-controls2 button.prev-btn:active {
+  transform: translateX(-10px);
+}
+
+.carousel-controls2 button.next-btn:active {
+  transform: translateX(10px);
+}
